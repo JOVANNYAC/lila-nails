@@ -1,7 +1,7 @@
 ---
 title: Una nube 
 publishDate: 2020-03-02 00:00:00
-img: /assets/uñas-4.jpg
+img: /assets/uñas-2.jpg
 img_alt: Decoracion de uñas, lila y nubes
 description: La belleza del cielo en tus uñas
 tags:
