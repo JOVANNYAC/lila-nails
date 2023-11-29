@@ -26,8 +26,8 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 		</a>
 		<menu-button>
 			<template>
-				<button class="menu-button" aria-expanded="false">
-					<span class="sr-only">Menu</span>
+				<button class="menu-button" transition:name="menu" aria-expanded="false">
+					<span class="sr-only" >Menu</span>
 					<Icon icon="list" />
 				</button>
 			</template>
@@ -71,7 +71,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 			</div>
 		</div>
 	</noscript>
-	<div id="menu-content" hidden>
+	<div id="menu-content" transition:name="menu" hidden>
 		<ul class="nav-items">
 			{
 				textLinks.map(({ label, href }) => (
